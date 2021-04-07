@@ -1,0 +1,11 @@
+void main() {
+  
+  var listaNumero = <int>[0, 1, 3, 10, 8, 2, 3, 11,6];
+  var maiorNumero = listaNumero[0];
+  
+  for (var index = 1 ; index < listaNumero.length; index ++) {
+    if (listaNumero[index] > maiorNumero) {
+      maiorNumero = listaNumero[index];     
+    }
+  }
+}
